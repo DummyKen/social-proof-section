@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=Spartan:wght@300;500;700&display=swap');
+
+body{
+    font-family: 'Spartan', sans-serif;
+}
+
+.sub-text{
+    font-size: 17px;
+    line-height: 23px;
+}
+/* main card-like section */
+.main-section{
+    background-color: hsl(300, 24%, 96%);
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    margin: 80px auto;
+}
+.main-section .first-section{
+    display: flex;
+    margin: 20px;
+}
+.main-section .first-section .products{
+    width: 50%;
+    padding: 5px;
+}
+.main-section .first-section .products .header{
+    color: hsl(300, 43%, 22%);
+    font-weight: 700;
+    font-size: 50px;
+    padding-right: 80px;
+    
+}
+.main-section .first-section .products .sub-text{
+    color: hsl(303, 10%, 53%);
+    font-size: 14px;
+    line-height: 23px;
+    margin: 15px 50px 10px 0px;
+}
+/* ratings boxes */
+.main-section .first-section .ratings{
+    width: 50%;
+    margin: 40px 0 0 50px;
+}
+.main-section .first-section .ratings .rating-box{
+    background-color: hsl(300, 24%, 96%);
+    color: hsl(300, 43%, 22%);
+    font-weight: 700;
+    width: 450px;
+    display: flex;
+    margin: auto;
+    margin-bottom: 30px;
+    padding: 10px;
+    border: none;
+}
+.main-section .first-section .ratings .rating-box:nth-of-type(2){
+    position: relative;
+    left: 5%;
+}
+.main-section .first-section .ratings .rating-box:nth-of-type(3){
+    position: relative;
+    left: 10%;
+}
+.main-section .first-section .ratings .rating-box img{
+    width: 15px;
+    padding: 5px;
+}
+.main-section .first-section .ratings .rating-box .sub-text{
+    margin: 0px 5px 0px 17px;
+}
+#second{
+    margin-left: 5em;
+} 
+#third{
+    margin-left: 7em;
+    margin-right: 5em;
+}
+
+/* second section(user reviews) */
+.second-section{
+    margin: 20px;
+    display: flex;
+}
+.second-section .review-box{
+    background-color: hsl(300, 43%, 22%);
+    width: 30%;
+    border:none;
+    border-radius: 10px;
+    margin: 10px;
+    padding: 25px;
+}
+.second-section .review-box .buyer{
+    display: flex;
+}
+.second-section .review-box img{
+    margin: 10px;
+    width: 45px;
+    height: 45px;
+    vertical-align: middle;
+    border: 0.3px solid hsl(300, 43%, 22%);
+    border-radius: 50%;
+}
+.second-section .review-box .tag{
+    color: hsl(300, 24%, 96%);
+    font-weight: 500;
+    padding: 10px;
+    
+}
+.second-section .review-box .tag .verified{
+    color: hsl(303, 10%, 53%);
+    display: block;
+}
+.second-section .review-box .review{
+    color: hsl(300, 24%, 96%);
+    font-size: 13px;
+    margin: 15px 0px;
+}
+
+/* transform */
+.second-section .push{
+    position: relative;
+    top: 20px;
+}
+.second-section .push:nth-of-type(3){
+    top: 40px;
+}
+
+footer{
+    width: 400px;
+    margin: auto;
+}
